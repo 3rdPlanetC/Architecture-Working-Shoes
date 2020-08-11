@@ -1,0 +1,58 @@
+.topbar {
+    display: flex;
+    background-color: #090909;
+    height: 6rem;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+}
+
+.logoImage {
+    margin: auto;
+    height: auto;
+    width: 50%;
+}
+
+.nav {
+    display: flex;
+    width: 80%;
+}
+
+.navList {
+    padding: 0;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    list-style: none;
+}
+
+.list {
+    padding: 0 1rem;
+}
+
+.listHref {
+    font-size: 1.25rem;
+    font-family: "neon";
+    padding: 0 1rem 0 1rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #fff;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.listHref:hover {
+    color: #FF1177;
+    animation: none;
+}
+
+@keyframes neon1 {
+    from {
+      text-shadow: 0 0 0.1em #fff, 0 0 0.25em #fff, 0 0 0.40em #fff, 0 0 0.55em red, 0 0 0.7em red, 0 0 0.85em red, 0 0 1em red, 0 0 1.5em red;
+    }
+    to {
+      text-shadow: 0 0 0.05em #fff, 0 0 0.15em #fff, 0 0 0.25em #fff, 0 0 0.35em red, 0 0 0.45em red, 0 0 0.55em red, 0 0 0.65em red, 0 0 0.75em red;
+    }
+  }

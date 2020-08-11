@@ -1,0 +1,16 @@
+.content {
+    background-color: white;
+    font-family: "quark";
+    font-size: 2rem;
+    padding: 4rem 6rem;
+    width: 80%;
+    margin: auto;
+}
+
+.content_1 {
+    margin-bottom: 4rem;
+}
+
+.content_2 {
+    text-align: center;
+}
